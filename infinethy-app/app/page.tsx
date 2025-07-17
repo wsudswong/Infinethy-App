@@ -7,7 +7,7 @@ import nook from '../public/Tom_Nook.png'
 export default function Home() {
   const name = 'Nethy';
   return (
-    <main className="dark">
+    <main className="white">
       {/* <div className="bg-auto bg-linear-65 from-purple-500 to-blue-500"> */}
       <div>
         <Image
