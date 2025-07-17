@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 
 :root {
@@ -19,8 +20,6 @@
     --foreground: #ededed;
   }
 } */
-
-@custom-variant dark (&:where(.dark, .dark *));
 
 body {
   background: var(--background);
