@@ -8,7 +8,6 @@ export default function Home() {
   const name = 'Nethy';
   return (
     <main className="dark">
-      {/* <div className="bg-auto bg-linear-65 from-purple-500 to-blue-500"> */}
       <div>
         <Image
           alt="Aurora"
@@ -23,7 +22,8 @@ export default function Home() {
       <div>
         <h1 className="text-3xl font-bold text-white dark:text-black">Hello, I&apos;m {name}</h1>
         <div className="flex">
-          <button className="w-32 flex-1 bg-sky-500 hover:bg-sky-700"><Link href="/habitracker">Habitracker</Link></button>
+          {/* <button className="w-32 flex-1 bg-sky-500 hover:bg-sky-700"><Link href="/habitracker">Habitracker</Link></button> */}
+          <div className="w-32 flex-1 bg-sky-500 hover:bg-sky-700"><Link href="/params/1">Params</Link></div>
           <button className="w-32 flex-1 bg-indigo-500 hover:bg-indigo-700"><a href="/badexample">Bad Example</a></button>
           <div className="w-32 flex-1 bg-emerald-500 hover:bg-emerald-700"><NookCard /></div>
           <button className="w-32 flex-1 bg-red-400 hover:bg-red-700"><Link href="/params">React Playground</Link></button>
