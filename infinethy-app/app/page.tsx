@@ -1,23 +1,11 @@
-'use client' //TODO: remove after Howl component
 import Image from "next/image"
 import Link from 'next/link'
 import NookCard from './components/NookCard'
 import aurora from '../public/Aurora.jpg'
 import nook from '../public/Tom_Nook.png'
-import {Howl} from 'howler'
 
 export default function Home() {
   const name = 'Nethy';
-  //TODO: move new Howl to component
-  const sound = new Howl({
-    src: ['/MapleStory-Jump.mp3'],
-    autoplay:true,
-    loop:false,
-  });
-  const playSound = () => {
-    sound.play();
-    console.log("Sound has played!");
-  }
   return (
     <main className="dark">
       {/* <div className="bg-auto bg-linear-65 from-purple-500 to-blue-500"> */}
@@ -51,9 +39,6 @@ export default function Home() {
               />
             </span>
             you like and explore the unknowns if this small corner of the internet.</div>
-        </div>
-        <div>
-          <button onClick={playSound}>Jump!</button>
         </div>
       </div>
     </main>
