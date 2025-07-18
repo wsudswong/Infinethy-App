@@ -11,10 +11,10 @@ const Howls = () => {
     });
   const playSound = () => {
   sound.play();
-  console.log("Sound has played!");
+  // console.log("Sound has played!");
 }
   return (
-    <button className="w-64 flex-1 bg-emerald-500 hover:bg-emerald-700" onMouseOver={playSound}>Howl</button>
+    <button className="flex-1 bg-emerald-500 hover:bg-emerald-700" onMouseOver={playSound}>Howl</button>
   )
 }
 
