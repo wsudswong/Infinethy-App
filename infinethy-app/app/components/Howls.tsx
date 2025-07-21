@@ -6,7 +6,7 @@ import {Howl} from 'howler'
 const Howls = ({children}: {children: React.ReactNode}) => {
   const sound = new Howl({
     src: ['/MapleStory-Jump.mp3'],
-    autoplay:true,
+    autoplay:false,
     loop:false,
     });
   const playSound = () => {
