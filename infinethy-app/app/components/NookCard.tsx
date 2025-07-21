@@ -6,8 +6,7 @@ const NookCard = ({children}: {children: React.ReactNode}) => {
     // empty elements are called "Fragments" the allow one return element but are not elements
     <>
       <div>
-          <p>{children}</p>
-          <Howls />
+          <Howls>{children}</Howls>
       </div>
     </>
   )
