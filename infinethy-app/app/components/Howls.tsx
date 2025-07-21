@@ -14,7 +14,7 @@ const Howls = ({children}: {children: React.ReactNode}) => {
   // console.log("Sound has played!");
 }
   return (
-    <div className="flex-1 bg-emerald-500 hover:bg-emerald-700" onMouseOver={playSound}>{children}</div>
+    <div onMouseOver={playSound}>{children}</div>
   )
 }
 

@@ -24,8 +24,7 @@ export default function Home() {
         <div className="flex">
           {/* <button className="w-32 flex-1 bg-indigo-500 hover:bg-indigo-700"><a href="/badexample">Bad Example</a></button> */}
           <Link href="/habitracker"><button className="w-32 flex-1 bg-sky-500 hover:bg-sky-700">Habitracker</button></Link>
-          <Link href="/params/272"><button className="w-32 flex-1 bg-fuchsia-500 hover:bg-fuchsia-700">Params</button></Link>
-          {/* TODO: Full button and howl */}
+          <Link href="/params/272"><button className="w-32 flex-1 bg-fuchsia-500 hover:bg-fuchsia-700"><NookCard>Params</NookCard></button></Link>
           <Link href="/habitracker"><button className="w-32 flex-1 bg-emerald-500 hover:bg-emerald-700"><NookCard>HowlingHabitracker</NookCard></button></Link>
           <Link href="/params/dynamic"><button className="w-32 flex-1 bg-red-400 hover:bg-red-700">React Playground</button></Link>
         </div>
