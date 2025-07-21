@@ -14,7 +14,7 @@ const Howls = () => {
   // console.log("Sound has played!");
 }
   return (
-    <button className="flex-1 bg-emerald-500 hover:bg-emerald-700" onMouseOver={playSound}>Howl</button>
+    <div className="flex-1 bg-emerald-500 hover:bg-emerald-700" onMouseOver={playSound}>Howl</div>
   )
 }
 
