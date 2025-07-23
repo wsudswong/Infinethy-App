@@ -49,6 +49,12 @@ export default function Home() {
       </div>
       <div>
         <h1 className="text-3xl font-bold text-white dark:text-black">Hello, I&apos;m {name}</h1>
+        <Image
+          alt="Inkscape"
+          src="InkscapeToSVG.svg"
+          width="100"
+          height="500"
+        />
         <div className="p-4">
           <div className="flow-root text-white dark:text-black">Welcome to my headpsace! Feel free to have a seat in any 
             <span className="inline-flex items-baseline">
