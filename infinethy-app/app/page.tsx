@@ -76,11 +76,27 @@ export default function Home() {
           <Link href="/habitracker"><button className="w-32 flex-1 bg-emerald-500 hover:bg-emerald-700"><NookCard>HowlingHabitracker</NookCard></button></Link>
           <Link href="/params/dynamic"><button className="w-32 flex-1 bg-red-400 hover:bg-red-700"><NookCard>React Playground</NookCard></button></Link>
         </div>
-        <div className="grid grid-flow-col grid-rows-4 gap-y-50 border-2">
-          <Link href="/params/1" className="row-span-2 row-start-2 row-end-5 bg-lime-500"><NookCard>Page01</NookCard></Link>
-          <Link href="/params/2" className="row-span-2  row-start-1 row-end-4 bg-lime-100">02</Link>
-          <Link href="/params/3" className="row-start-1 row-end-4 bg-lime-900">03</Link>
-          <Link href="/params/4" className="row-span-2 row-start-2 row-end-5 bg-lime-700">04</Link>
+        <div className="grid grid-flow-col grid-rows-4 gap-y-10 border-2">
+          <Link href="/params/1" className="row-start-2 row-end-5 bg-lime-500 hover:bg-lime-800">
+            <NookCard>
+              <Image
+                 alt="Tom Nook"
+                 src={nook}
+                 className="self-center"
+              />
+            </NookCard>
+          </Link>
+          <Link href="/params/2" className="row-span-3  row-start-1 bg-lime-100">
+            <NookCard>
+              <Image
+                 alt="Tom Nook"
+                 src={nook}
+                 className="self-center"
+              />
+            </NookCard>
+          </Link>
+          <Link href="/params/3" className="row-span-3 row-start-1 bg-lime-900">03</Link>
+          <Link href="/params/4" className="row-span-3 row-start-2 bg-lime-700">04</Link>
         </div>
       </div>
     </main>
