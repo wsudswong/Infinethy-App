@@ -4,6 +4,7 @@ import NookCard from './components/NookCard'
 import aurora from '../public/Aurora.jpg'
 import nook from '../public/Tom_Nook.png'
 import Header from './components/Header'
+import Gardening from './components/Gardening'
 
 export default function Home() {
   const name = 'Nethy';
@@ -53,12 +54,7 @@ export default function Home() {
         <div className="grid grid-flow-col grid-rows-4 gap-y-10 border-2">
           <Link href="/params/1" className="row-start-2 row-end-5 bg-lime-500 hover:bg-lime-800">
             <NookCard>
-              <Image
-                 alt="Tom Nook"
-                 src={nook}
-                 className="self-center"
-                 style={{border: "1px solid #fff"}}
-              />
+              <Gardening />
             </NookCard>
           </Link>
           <Link href="/params/2" className="row-span-3  row-start-1 bg-lime-100">
