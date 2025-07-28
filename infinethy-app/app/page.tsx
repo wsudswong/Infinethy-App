@@ -64,21 +64,11 @@ export default function Home() {
           </Link>
           <Link href="/params/3" className="row-span-3 row-start-1 bg-lime-900">
             <NookCard>
-              <Image
-                 alt="Tom Nook"
-                 src={nook}
-                 className="self-center"
-                 style={{border: "1px solid #fff"}}
-              />
+              <NookIllustration default_url="/Aurora.jpg" hover_url="/Clouds.jpg"/>
             </NookCard></Link>
           <Link href="/params/4" className="row-span-3 row-start-2 bg-lime-700">
             <NookCard>
-              <Image
-                 alt="Tom Nook"
-                 src={nook}
-                 className="self-center"
-                 style={{border: "1px solid #fff"}}
-              />
+              <NookIllustration default_url="/Aurora.jpg" hover_url="/Clouds.jpg"/>
             </NookCard>
           </Link>
         </div>
