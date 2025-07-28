@@ -13,7 +13,7 @@ const Gardening = () => {
         alt="Bottom Left Nook Card"
         src={isHovered ? aurora : clouds}
         className="self-center"
-        style={{border: "1px solid #fff"}}
+        style={{border: "none"}}
       />
     </div>
   )

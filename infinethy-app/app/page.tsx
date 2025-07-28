@@ -52,7 +52,7 @@ export default function Home() {
           <Link href="/params/dynamic"><button className="w-32 flex-1 bg-red-400 hover:bg-red-700"><NookCard>React Playground</NookCard></button></Link>
         </div>
         <div className="grid grid-flow-col grid-rows-4 gap-y-10 border-2">
-          <Link href="/params/1" className="row-start-2 row-end-5 bg-lime-500 hover:bg-lime-800">
+          <Link href="/gardening" className="row-start-2 row-end-5 bg-lime-500 hover:bg-lime-800">
             <NookCard>
               <Gardening />
             </NookCard>
