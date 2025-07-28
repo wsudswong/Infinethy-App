@@ -52,23 +52,23 @@ export default function Home() {
           <Link href="/params/dynamic"><button className="w-32 flex-1 bg-red-400 hover:bg-red-700"><NookCard>React Playground</NookCard></button></Link>
         </div>
         <div className="grid grid-flow-col grid-rows-4 gap-y-10 border-2">
-          <Link href="/gardening" className="row-start-2 row-end-5 bg-lime-500 hover:bg-lime-800">
+          <Link href="/gardening" className="row-start-2 row-end-5">
             <NookCard>
-              <NookIllustration default_url="/Aurora.jpg" hover_url="/Clouds.jpg"/>
+              <NookIllustration default_url="/Garden.png" hover_url="/Clouds.jpg"/>
             </NookCard>
           </Link>
           <Link href="/params/2" className="row-span-3  row-start-1 bg-lime-100">
             <NookCard>
-              <NookIllustration default_url="/Aurora.jpg" hover_url="/Clouds.jpg"/>
+              <NookIllustration default_url="/Garden.png" hover_url="/Clouds.jpg"/>
             </NookCard>
           </Link>
           <Link href="/params/3" className="row-span-3 row-start-1 bg-lime-900">
             <NookCard>
-              <NookIllustration default_url="/Aurora.jpg" hover_url="/Clouds.jpg"/>
+              <NookIllustration default_url="/Garden.png" hover_url="/Clouds.jpg"/>
             </NookCard></Link>
           <Link href="/params/4" className="row-span-3 row-start-2 bg-lime-700">
             <NookCard>
-              <NookIllustration default_url="/Aurora.jpg" hover_url="/Clouds.jpg"/>
+              <NookIllustration default_url="/Garden.png" hover_url="/Clouds.jpg"/>
             </NookCard>
           </Link>
         </div>

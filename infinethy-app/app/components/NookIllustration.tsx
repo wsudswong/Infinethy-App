@@ -14,7 +14,7 @@ const NookIllustration: React.FC<NookProps> = ({default_url, hover_url}) => {
   return (
     <div onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       <Image
-        alt="Bottom Left Nook Card"
+        alt="Nook Card Illustration"
         src={isHovered ? hover_url : default_url}
         className="self-center"
         style={{border: "none"}}
