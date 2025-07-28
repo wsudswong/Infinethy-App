@@ -2,21 +2,28 @@
 import React from 'react'
 import Image from "next/image"
 import {useState} from 'react'
-import aurora from '../../public/Aurora.jpg'
-import clouds from '../../public/Clouds.jpg'
+// import cat from '../../public/cat_nobackground.gif'
 
-const Gardening = () => {
+interface NookProps {
+  default_url: string;
+  hover_url: string;
+}
+
+const NookIllustration: React.FC<NookProps> = ({default_url, hover_url}) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       <Image
         alt="Bottom Left Nook Card"
-        src={isHovered ? aurora : clouds}
+        src={isHovered ? hover_url : default_url}
         className="self-center"
         style={{border: "none"}}
+        width={500}
+        height={500}
+        // unoptimized={true}
       />
     </div>
   )
 }
 
-export default Gardening
+export default NookIllustration
