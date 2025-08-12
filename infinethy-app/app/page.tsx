@@ -24,14 +24,14 @@ export default function Home() {
       </div>
       <div>
         <h1 className="text-3xl font-bold text-white dark:text-black">Hello, I&apos;m {name}</h1>
-        <Link href="/habitracker">
+        {/* <Link href="/habitracker">
           <Image
             alt="Inkscape"
             src="InkscapeToSVGhover.svg"
             width="50"
             height="500"
           />
-        </Link>
+        </Link> */}
         <div className="p-4">
           <div className="flow-root text-white dark:text-black">Welcome to my headpsace! Feel free to have a seat in any 
             <span className="inline-flex items-baseline">
