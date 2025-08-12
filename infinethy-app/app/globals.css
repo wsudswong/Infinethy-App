@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
+/* @custom-variant dark (&:where(.dark, .dark *)); */
 
 
 :root {
@@ -30,4 +30,14 @@ body {
 
 .button-classic {
   background-color: burlywood;
+}
+
+/* component class */
+@layer components {
+  .card {
+    background-color: bisque;
+    border-radius: var(--radius-lg);
+    padding: --spacing(6);
+    box-shadow: var(--shaddow-xl);
+  }
 }
