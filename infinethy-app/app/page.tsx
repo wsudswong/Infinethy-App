@@ -57,9 +57,9 @@ export default function Home() {
               <NookIllustration default_url="/Tomato.png" hover_url="/Lightened_Tomato.png"/>
             </NookCard>
           </Link>
-          <Link href="/params/2" className="row-span-3  row-start-1 bg-lime-100">
+          <Link href="/params/2" className="row-span-3  row-start-1">
             <NookCard>
-              <NookIllustration default_url="/Garden.png" hover_url="/Clouds.jpg"/>
+              <NookIllustration default_url="/Garden.png" hover_url="/Book.gif"/>
             </NookCard>
           </Link>
           <Link href="/params/3" className="row-span-3 row-start-1 bg-lime-900">
